@@ -1,0 +1,23 @@
+.content-section {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .product-list, .product-details {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .product-item {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .product-item:hover {
+    background-color: #f1f1f1;
+  }
+  

@@ -1,0 +1,29 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    z-index: 1000;
+  }
+  
+  .navbar-logo img {
+    height: 40px;
+  }
+  
+  .contact-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .contact-btn:hover {
+    background-color: #0056b3;
+  }
+  
