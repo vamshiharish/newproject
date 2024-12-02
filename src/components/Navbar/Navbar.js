@@ -1,11 +1,11 @@
 import React from "react";
-import "./Navbar.css";
+import "./navbar.css";
 
 function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src="your-icon.png" alt="Logo" />
+        <h2 src="your-icon.png" alt="Logo"> CMS</h2>
       </div>
       <button className="contact-btn">Contact</button>
     </nav>

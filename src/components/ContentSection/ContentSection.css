@@ -1,6 +1,7 @@
 .content-section {
     display: flex;
     padding: 20px;
+    flex-direction: column;
   }
   
   .product-list, .product-details {
@@ -11,13 +12,89 @@
     border-radius: 5px;
   }
   
-  .product-item {
+  .product-itemsss {
     cursor: pointer;
-    padding: 10px;
+    padding: 50px;
     border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
   }
   
   .product-item:hover {
     background-color: #f1f1f1;
   }
-  
+
+  .product-cart{
+    display: flex;
+  }
+  .icon-images{
+    width: 60vw;
+    height: 60vh;
+    background: #000;
+    opacity: 67%;
+  }
+  .product-values{
+    position: absolute;
+    bottom: 252px;
+    left: 440px;
+  }
+  .newlist{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .product-item{
+    width: 40%;
+    margin: 5%;
+  }
+  .adeclass{
+    color: green;
+  }
+  .product-div{
+    display: flex;
+    justify-content: center;
+  }
+  .product-total{
+    text-align: center;
+  }
+  .product-totals{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+  }
+  .product-pricing{
+    width: 100%;
+  }
+  .labell{
+    font-weight: bold;
+  }
+  .btn{
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .product-price{
+    color: #fff;
+    background-color: #e0dbdb4a;
+    display: inline-block;
+    padding: 14px;
+    border-radius: 25px;
+  }
+
+  .product-regularprice{
+    text-decoration: line-through;
+    font-family: roboto;
+  }
+
+  .product-name{
+    color: #fff;
+  }
+
+  .product-para{
+    color: #fff;
+  }

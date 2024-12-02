@@ -1,16 +1,19 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import OpeningPage from "./components/OpeningPage.js";
-import ContentSection from "./components/ContentSection.js";
-import UnorderedList from "./components/UnorderedList.js";
-import Footer from "./components/Footer.js";
+
+import Navbar from "./components/Navbar/navbar";
+ // import OpeningPage from "./components/Openingpage/openingpage";
+ import ContentSection from "./components/ContentSection/contentsection";
+ import UnorderedList from "./components/UnorderedList/unorderedList";
+ import Footer from "./components/Footer/footer";
 import './App.css';
+
+
 
 function App() {
   return (
     <div>
       <Navbar />
-      <OpeningPage />
+      
       <ContentSection />
       <UnorderedList />
       <Footer />
