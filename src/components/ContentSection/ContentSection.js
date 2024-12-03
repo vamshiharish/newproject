@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Backgroundimage from "./images/hero.png";
-import "./contentSection.css";
+import "./ContentSection.css";
 
 function Package() {
   const [products, setProducts] = useState([]);
@@ -63,6 +63,7 @@ function Package() {
               <p className="product-total">Total:<span className="adeclass"> AED {selectedProduct.price}</span><span> AED {selectedProduct.regular_price}</span></p> 
               <p  className="product-total product-totals ">OFFER CLAIMED<span>You save AED {selectedProduct.regular_price - selectedProduct.price}</span></p>
               <table className="product-pricing">
+                <tbody>
                 <tr>
                   <td>
                     <label>Product</label>
@@ -121,6 +122,7 @@ function Package() {
                     <button className="btn">Pay {selectedProduct.price} AED</button>
                   </td>
                 </tr>
+                </tbody>
               </table>
             </div>
           ) : (
